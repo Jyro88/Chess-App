@@ -1,0 +1,18 @@
+.tile{
+    display: grid;
+    place-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+.black-tile{
+    background: linear-gradient(to bottom, #006666 0%, #000066 100%);
+}
+
+.white-tile{
+    background: linear-gradient(to bottom, #ccffff 0%, #ffffcc 100%);
+}
+
+.tile img{
+    width: 65px
+}
